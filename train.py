@@ -48,9 +48,9 @@ def train(args):
 def main():
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
-    args.exp_name = "DDPM_Uncondtional"
-    args.epochs = 500
-    args.batch_size = 3
+    args.exp_name = "DDPM_Unconditional"
+    args.epochs = 2
+    args.batch_size = 2
     args.image_size = 64
     args.dataset_path = "LandscapeData/"
     args.device = "cuda"
